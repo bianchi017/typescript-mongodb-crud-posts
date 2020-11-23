@@ -9,7 +9,9 @@ This project provides a simple scaffold for node applications with typescript. I
 
 ## Build
 
-```bashnpm run build``
+```bash
+npm run build
+```
 
 ## Start
 
