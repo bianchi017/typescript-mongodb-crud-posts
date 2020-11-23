@@ -1,5 +1,5 @@
 {
-  "name": "typescript-mongodb-crud-posts",
+  "name": "typescript-mongodb-handlebars-crud-posts",
   "version": "1.0.0",
   "description": "Online posting application",
   "main": "index.js",
