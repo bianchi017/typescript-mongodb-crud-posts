@@ -1,6 +1,5 @@
 # typescript-mongodb-crud-posts
-Basic configuration for a NodeJs + TypeScript project
-
+NodeJs, TypeScript, Handlebars, Mongoose
 
 ## Build
 
