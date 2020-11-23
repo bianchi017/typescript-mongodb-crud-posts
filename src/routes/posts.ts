@@ -9,8 +9,8 @@ router.route('/create')
         res.render('posts/create');
     })
     .post(async (req: Request, res: Response) => {
-        const { title, content, category, contentComment } = req.body;
-        const post = new Post({ title, content, category, contentComment });
+        const { title, content, category } = req.body;
+        const post = new Post({ title, content, category });
         await post.save();
         res.redirect('/posts/list');
     });
