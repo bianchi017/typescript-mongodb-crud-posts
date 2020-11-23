@@ -1,4 +1,4 @@
-# typescript-mongodb-crud-posts
+# typescript-mongodb-handlebars-crud-posts
 NodeJs, TypeScript, Handlebars, Mongoose
 
 ## Build
