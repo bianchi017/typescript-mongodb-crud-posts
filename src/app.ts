@@ -5,7 +5,7 @@ import path from 'path';
 
 // Routes
 import indexRoutes from './routes';
-import tasksRoutes from './routes/posts';
+import postsRoutes from './routes/posts';
 
 class Applicaction {
 
@@ -38,8 +38,7 @@ class Applicaction {
 
     routes() {
         this.app.use('/', indexRoutes);
-        this.app.use('/posts', tasksRoutes);
-
+        this.app.use('/posts', postsRoutes);
         this.app.use(express.static(path.join(__dirname, 'public')));
     }
 
